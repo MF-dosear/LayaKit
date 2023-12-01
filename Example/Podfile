@@ -1,0 +1,8 @@
+use_frameworks!
+
+platform :ios, '12.0'
+
+target 'LayaKit_Example' do
+  pod 'LayaKit', :path => '../'
+
+end
