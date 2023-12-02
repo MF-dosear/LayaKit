@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0BAE26472690014F00B926FF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0BAE26462690014F00B926FF /* GoogleService-Info.plist */; };
+		910F865F2A98494C008E2287 /* MQVC+method.m in Sources */ = {isa = PBXBuildFile; fileRef = 910F86572A98494B008E2287 /* MQVC+method.m */; };
+		910F86612A98494C008E2287 /* MQVC+function.m in Sources */ = {isa = PBXBuildFile; fileRef = 910F865D2A98494C008E2287 /* MQVC+function.m */; };
+		910F86622A98494C008E2287 /* MQVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 910F865E2A98494C008E2287 /* MQVC.m */; };
+		9F6A62BCA9E70E19E8695386 /* Pods_LayaDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 528BDC4AADC3F4F7D322C157 /* Pods_LayaDemo.framework */; };
+		A2460A211C8DAF710032CD8D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A2460A201C8DAF710032CD8D /* main.m */; };
+		A2460A241C8DAF710032CD8D /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = A2460A231C8DAF710032CD8D /* AppDelegate.mm */; };
+		A2460A2A1C8DAF710032CD8D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2460A281C8DAF710032CD8D /* Main.storyboard */; };
+		A2460A2C1C8DAF710032CD8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2460A2B1C8DAF710032CD8D /* Assets.xcassets */; };
+		A2460A2F1C8DAF710032CD8D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2460A2D1C8DAF710032CD8D /* LaunchScreen.storyboard */; };
+		DAF7DD0E2B1B056400B4EA92 /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = DAF7DD022B1B056400B4EA92 /* ViewController.mm */; };
+		DAF7DD0F2B1B056400B4EA92 /* LaunchView.m in Sources */ = {isa = PBXBuildFile; fileRef = DAF7DD042B1B056400B4EA92 /* LaunchView.m */; };
+		DAF7DD112B1B056400B4EA92 /* JSBridge.mm in Sources */ = {isa = PBXBuildFile; fileRef = DAF7DD0A2B1B056400B4EA92 /* JSBridge.mm */; };
+		DAF7DD122B1B056400B4EA92 /* JSBridge+platform.mm in Sources */ = {isa = PBXBuildFile; fileRef = DAF7DD0C2B1B056400B4EA92 /* JSBridge+platform.mm */; };
+		DAF7DD132B1B056B00B4EA92 /* KKSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAFE95E32B19E4A5006BEB0F /* KKSDK.framework */; };
+		DAF7DD142B1B056B00B4EA92 /* KKSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DAFE95E32B19E4A5006BEB0F /* KKSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DAF7DD652B1B08CB00B4EA92 /* app.json in Resources */ = {isa = PBXBuildFile; fileRef = DAF7DD5E2B1B08CB00B4EA92 /* app.json */; };
+		DAF7DD662B1B08CB00B4EA92 /* config.ini in Resources */ = {isa = PBXBuildFile; fileRef = DAF7DD5F2B1B08CB00B4EA92 /* config.ini */; };
+		DAF7DD672B1B08CB00B4EA92 /* cache in Resources */ = {isa = PBXBuildFile; fileRef = DAF7DD602B1B08CB00B4EA92 /* cache */; };
+		DAF7DD682B1B08CB00B4EA92 /* ca in Resources */ = {isa = PBXBuildFile; fileRef = DAF7DD612B1B08CB00B4EA92 /* ca */; };
+		DAF7DD692B1B08CB00B4EA92 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DAF7DD622B1B08CB00B4EA92 /* Default-568h@2x.png */; };
+		DAF7DD6A2B1B08CB00B4EA92 /* font in Resources */ = {isa = PBXBuildFile; fileRef = DAF7DD632B1B08CB00B4EA92 /* font */; };
+		DAF7DD6B2B1B08CB00B4EA92 /* scripts in Resources */ = {isa = PBXBuildFile; fileRef = DAF7DD642B1B08CB00B4EA92 /* scripts */; };
+		DAFE95E82B19EADD006BEB0F /* LayaKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFE95E72B19EADD006BEB0F /* LayaKit.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DAF7DD152B1B056C00B4EA92 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				DAF7DD142B1B056B00B4EA92 /* KKSDK.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0BAE26462690014F00B926FF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		0BAE26482690017D00B926FF /* LayaDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LayaDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		3D0B2BD5E8AF252BB90B5A76 /* Pods-LayaDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LayaDemo.release.xcconfig"; path = "Target Support Files/Pods-LayaDemo/Pods-LayaDemo.release.xcconfig"; sourceTree = "<group>"; };
+		528BDC4AADC3F4F7D322C157 /* Pods_LayaDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LayaDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FFCF0CCE5C89D99604BF5C9 /* Pods-LayaDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LayaDemo.debug.xcconfig"; path = "Target Support Files/Pods-LayaDemo/Pods-LayaDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		910F86572A98494B008E2287 /* MQVC+method.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MQVC+method.m"; sourceTree = "<group>"; };
+		910F86592A98494C008E2287 /* MQVC+function.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MQVC+function.h"; sourceTree = "<group>"; };
+		910F865A2A98494C008E2287 /* MQVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQVC.h; sourceTree = "<group>"; };
+		910F865B2A98494C008E2287 /* MQVC+method.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MQVC+method.h"; sourceTree = "<group>"; };
+		910F865D2A98494C008E2287 /* MQVC+function.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MQVC+function.m"; sourceTree = "<group>"; };
+		910F865E2A98494C008E2287 /* MQVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQVC.m; sourceTree = "<group>"; };
+		919E446D2A122169008820C0 /* LayaDemo.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = LayaDemo.entitlements; sourceTree = "<group>"; };
+		A2460A1C1C8DAF710032CD8D /* Rogue Legend.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rogue Legend.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2460A201C8DAF710032CD8D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A2460A221C8DAF710032CD8D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A2460A231C8DAF710032CD8D /* AppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
+		A2460A291C8DAF710032CD8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A2460A2B1C8DAF710032CD8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A2460A2E1C8DAF710032CD8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A2460A301C8DAF710032CD8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAF7DD022B1B056400B4EA92 /* ViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
+		DAF7DD032B1B056400B4EA92 /* Config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Config.h; sourceTree = "<group>"; };
+		DAF7DD042B1B056400B4EA92 /* LaunchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LaunchView.m; sourceTree = "<group>"; };
+		DAF7DD052B1B056400B4EA92 /* JSBridge+platform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JSBridge+platform.h"; sourceTree = "<group>"; };
+		DAF7DD092B1B056400B4EA92 /* JSBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSBridge.h; sourceTree = "<group>"; };
+		DAF7DD0A2B1B056400B4EA92 /* JSBridge.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = JSBridge.mm; sourceTree = "<group>"; };
+		DAF7DD0B2B1B056400B4EA92 /* LaunchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LaunchView.h; sourceTree = "<group>"; };
+		DAF7DD0C2B1B056400B4EA92 /* JSBridge+platform.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "JSBridge+platform.mm"; sourceTree = "<group>"; };
+		DAF7DD0D2B1B056400B4EA92 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DAF7DD5E2B1B08CB00B4EA92 /* app.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = app.json; sourceTree = "<group>"; };
+		DAF7DD5F2B1B08CB00B4EA92 /* config.ini */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = config.ini; sourceTree = "<group>"; };
+		DAF7DD602B1B08CB00B4EA92 /* cache */ = {isa = PBXFileReference; lastKnownFileType = folder; path = cache; sourceTree = "<group>"; };
+		DAF7DD612B1B08CB00B4EA92 /* ca */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ca; sourceTree = "<group>"; };
+		DAF7DD622B1B08CB00B4EA92 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		DAF7DD632B1B08CB00B4EA92 /* font */ = {isa = PBXFileReference; lastKnownFileType = folder; path = font; sourceTree = "<group>"; };
+		DAF7DD642B1B08CB00B4EA92 /* scripts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = scripts; sourceTree = "<group>"; };
+		DAFE95E32B19E4A5006BEB0F /* KKSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = KKSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAFE95E72B19EADD006BEB0F /* LayaKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayaKit.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A2460A191C8DAF710032CD8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F6A62BCA9E70E19E8695386 /* Pods_LayaDemo.framework in Frameworks */,
+				DAF7DD132B1B056B00B4EA92 /* KKSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5E6CC3B91EA4F60200FA49A3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DAFE95E32B19E4A5006BEB0F /* KKSDK.framework */,
+				528BDC4AADC3F4F7D322C157 /* Pods_LayaDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A0C19B7F66F4DB524CDDED42 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6FFCF0CCE5C89D99604BF5C9 /* Pods-LayaDemo.debug.xcconfig */,
+				3D0B2BD5E8AF252BB90B5A76 /* Pods-LayaDemo.release.xcconfig */,
+			);
+			name = Pods;
+			path = ../Pods;
+			sourceTree = "<group>";
+		};
+		A2460A131C8DAF710032CD8D = {
+			isa = PBXGroup;
+			children = (
+				919E446D2A122169008820C0 /* LayaDemo.entitlements */,
+				A2460A1E1C8DAF710032CD8D /* LayaDemo */,
+				A2460A1D1C8DAF710032CD8D /* Products */,
+				5E6CC3B91EA4F60200FA49A3 /* Frameworks */,
+				A0C19B7F66F4DB524CDDED42 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		A2460A1D1C8DAF710032CD8D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A2460A1C1C8DAF710032CD8D /* Rogue Legend.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A2460A1E1C8DAF710032CD8D /* LayaDemo */ = {
+			isa = PBXGroup;
+			children = (
+				0BAE26462690014F00B926FF /* GoogleService-Info.plist */,
+				DAF7DD3B2B1B08BF00B4EA92 /* resource */,
+				DAF7DD012B1B056400B4EA92 /* Laya */,
+				DAFE95D82B19D568006BEB0F /* WKWebView */,
+				DAFE95D62B19D473006BEB0F /* Other */,
+				DAFE95D92B19D588006BEB0F /* Supporting Files */,
+			);
+			path = LayaDemo;
+			sourceTree = "<group>";
+		};
+		DAF7DD012B1B056400B4EA92 /* Laya */ = {
+			isa = PBXGroup;
+			children = (
+				DAF7DD022B1B056400B4EA92 /* ViewController.mm */,
+				DAF7DD032B1B056400B4EA92 /* Config.h */,
+				DAF7DD042B1B056400B4EA92 /* LaunchView.m */,
+				DAF7DD052B1B056400B4EA92 /* JSBridge+platform.h */,
+				DAF7DD092B1B056400B4EA92 /* JSBridge.h */,
+				DAF7DD0A2B1B056400B4EA92 /* JSBridge.mm */,
+				DAF7DD0B2B1B056400B4EA92 /* LaunchView.h */,
+				DAF7DD0C2B1B056400B4EA92 /* JSBridge+platform.mm */,
+				DAF7DD0D2B1B056400B4EA92 /* ViewController.h */,
+			);
+			path = Laya;
+			sourceTree = "<group>";
+		};
+		DAF7DD3B2B1B08BF00B4EA92 /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				DAF7DD5E2B1B08CB00B4EA92 /* app.json */,
+				DAF7DD612B1B08CB00B4EA92 /* ca */,
+				DAF7DD602B1B08CB00B4EA92 /* cache */,
+				DAF7DD5F2B1B08CB00B4EA92 /* config.ini */,
+				DAF7DD622B1B08CB00B4EA92 /* Default-568h@2x.png */,
+				DAF7DD632B1B08CB00B4EA92 /* font */,
+				DAF7DD642B1B08CB00B4EA92 /* scripts */,
+			);
+			path = resource;
+			sourceTree = "<group>";
+		};
+		DAFE95D62B19D473006BEB0F /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				A2460A221C8DAF710032CD8D /* AppDelegate.h */,
+				A2460A231C8DAF710032CD8D /* AppDelegate.mm */,
+				A2460A301C8DAF710032CD8D /* Info.plist */,
+				DAFE95E72B19EADD006BEB0F /* LayaKit.swift */,
+				A2460A2B1C8DAF710032CD8D /* Assets.xcassets */,
+				A2460A281C8DAF710032CD8D /* Main.storyboard */,
+				A2460A2D1C8DAF710032CD8D /* LaunchScreen.storyboard */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		DAFE95D82B19D568006BEB0F /* WKWebView */ = {
+			isa = PBXGroup;
+			children = (
+				910F865A2A98494C008E2287 /* MQVC.h */,
+				910F865E2A98494C008E2287 /* MQVC.m */,
+				910F86592A98494C008E2287 /* MQVC+function.h */,
+				910F865D2A98494C008E2287 /* MQVC+function.m */,
+				910F865B2A98494C008E2287 /* MQVC+method.h */,
+				910F86572A98494B008E2287 /* MQVC+method.m */,
+			);
+			path = WKWebView;
+			sourceTree = "<group>";
+		};
+		DAFE95D92B19D588006BEB0F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0BAE26482690017D00B926FF /* LayaDemo-Bridging-Header.h */,
+				A2460A201C8DAF710032CD8D /* main.m */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A2460A1B1C8DAF710032CD8D /* LayaDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2460A491C8DAF710032CD8D /* Build configuration list for PBXNativeTarget "LayaDemo" */;
+			buildPhases = (
+				3B484435F0B5C0FC88A0E786 /* [CP] Check Pods Manifest.lock */,
+				A2460A181C8DAF710032CD8D /* Sources */,
+				A2460A191C8DAF710032CD8D /* Frameworks */,
+				A2460A1A1C8DAF710032CD8D /* Resources */,
+				DFCC30E2027909BE64174A63 /* [CP] Embed Pods Frameworks */,
+				DAF7DD152B1B056C00B4EA92 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LayaDemo;
+			productName = dicegame;
+			productReference = A2460A1C1C8DAF710032CD8D /* Rogue Legend.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A2460A141C8DAF710032CD8D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1420;
+				ORGANIZATIONNAME = dicegame;
+				TargetAttributes = {
+					A2460A1B1C8DAF710032CD8D = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = UN2J2M5DF5;
+						LastSwiftMigration = 1250;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A2460A171C8DAF710032CD8D /* Build configuration list for PBXProject "LayaDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A2460A131C8DAF710032CD8D;
+			productRefGroup = A2460A1D1C8DAF710032CD8D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A2460A1B1C8DAF710032CD8D /* LayaDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A2460A1A1C8DAF710032CD8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BAE26472690014F00B926FF /* GoogleService-Info.plist in Resources */,
+				DAF7DD6B2B1B08CB00B4EA92 /* scripts in Resources */,
+				A2460A2F1C8DAF710032CD8D /* LaunchScreen.storyboard in Resources */,
+				DAF7DD692B1B08CB00B4EA92 /* Default-568h@2x.png in Resources */,
+				A2460A2C1C8DAF710032CD8D /* Assets.xcassets in Resources */,
+				DAF7DD652B1B08CB00B4EA92 /* app.json in Resources */,
+				DAF7DD662B1B08CB00B4EA92 /* config.ini in Resources */,
+				A2460A2A1C8DAF710032CD8D /* Main.storyboard in Resources */,
+				DAF7DD6A2B1B08CB00B4EA92 /* font in Resources */,
+				DAF7DD682B1B08CB00B4EA92 /* ca in Resources */,
+				DAF7DD672B1B08CB00B4EA92 /* cache in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3B484435F0B5C0FC88A0E786 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LayaDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DFCC30E2027909BE64174A63 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LayaDemo/Pods-LayaDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/LayaKit/LayaKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LayaKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LayaDemo/Pods-LayaDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A2460A181C8DAF710032CD8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAF7DD122B1B056400B4EA92 /* JSBridge+platform.mm in Sources */,
+				910F86622A98494C008E2287 /* MQVC.m in Sources */,
+				DAFE95E82B19EADD006BEB0F /* LayaKit.swift in Sources */,
+				DAF7DD112B1B056400B4EA92 /* JSBridge.mm in Sources */,
+				910F86612A98494C008E2287 /* MQVC+function.m in Sources */,
+				910F865F2A98494C008E2287 /* MQVC+method.m in Sources */,
+				DAF7DD0E2B1B056400B4EA92 /* ViewController.mm in Sources */,
+				DAF7DD0F2B1B056400B4EA92 /* LaunchView.m in Sources */,
+				A2460A241C8DAF710032CD8D /* AppDelegate.mm in Sources */,
+				A2460A211C8DAF710032CD8D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A2460A281C8DAF710032CD8D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2460A291C8DAF710032CD8D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A2460A2D1C8DAF710032CD8D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2460A2E1C8DAF710032CD8D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A2460A471C8DAF710032CD8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A2460A481C8DAF710032CD8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A2460A4A1C8DAF710032CD8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FFCF0CCE5C89D99604BF5C9 /* Pods-LayaDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = LayaDemo.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.0.1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = UN2J2M5DF5;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LayaDemo",
+				);
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = LayaDemo/Other/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Pixel Quest: Rogue Legend";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "\"${PODS_ROOT}/../../LayaKit/Libraries/lib\"";
+				MARKETING_VERSION = 1.0.1;
+				OTHER_CFLAGS = (
+					"-I",
+					"${PODS_ROOT}/../../LayaKit/Libraries/include",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lconch",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = x.g.y;
+				PRODUCT_NAME = "Rogue Legend";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "LayaDemo/Supporting Files/LayaDemo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALID_ARCHS = "arm64 armv7";
+			};
+			name = Debug;
+		};
+		A2460A4B1C8DAF710032CD8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D0B2BD5E8AF252BB90B5A76 /* Pods-LayaDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = LayaDemo.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1.0.1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 57489G5926;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LayaDemo",
+				);
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = LayaDemo/Other/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Pixel Quest: Rogue Legend";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "\"${PODS_ROOT}/../../LayaKit/Libraries/lib\"";
+				MARKETING_VERSION = 1.0.1;
+				OTHER_CFLAGS = (
+					"-I",
+					"${PODS_ROOT}/../../LayaKit/Libraries/include",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lconch",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pixel.legend.sea.ios;
+				PRODUCT_NAME = "Rogue Legend";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = xscqhk_dev;
+				SWIFT_OBJC_BRIDGING_HEADER = "LayaDemo/Supporting Files/LayaDemo-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALID_ARCHS = "arm64 armv7";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A2460A171C8DAF710032CD8D /* Build configuration list for PBXProject "LayaDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2460A471C8DAF710032CD8D /* Debug */,
+				A2460A481C8DAF710032CD8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2460A491C8DAF710032CD8D /* Build configuration list for PBXNativeTarget "LayaDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2460A4A1C8DAF710032CD8D /* Debug */,
+				A2460A4B1C8DAF710032CD8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A2460A141C8DAF710032CD8D /* Project object */;
+}

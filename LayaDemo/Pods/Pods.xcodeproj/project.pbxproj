@@ -1,0 +1,821 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		39295E21CC7380BD268EA16A7D8E94E9 /* LayaKit.h in Headers */ = {isa = PBXBuildFile; fileRef = E75E570184CD06A51DCF06685A1667B2 /* LayaKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3F4959238BBE0DA863C421B06D15CE74 /* LayaKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9381B49BE57931315BDDE422C944C765 /* LayaKit-dummy.m */; };
+		5D8465D2225ABA10231BEF088106EC35 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91CF9DA92B4ED056F1479451B34A87AF /* Foundation.framework */; };
+		6ADB0805BD9830E62039C1FE9E9D3BBF /* conchConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F25F9E2AB5478A2119AE72EE61A7B16 /* conchConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8EFECE7C36A96EC2EC6C7D5F167E9C71 /* Pods-LayaDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2032DE279CB29AC7CE93BAD1C7D99CDC /* Pods-LayaDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		94E40C36661FAE2231AE7B39D78CAF8F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91CF9DA92B4ED056F1479451B34A87AF /* Foundation.framework */; };
+		99D9919750BEF5A7FA35BC75B214A53D /* libconchRuntime.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 380B0345A8227B3FB53B2B7711E974AE /* libconchRuntime.bundle */; };
+		A3D2BA8EBED03F8CADE7327E9586962A /* LayaKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E2E0DF826087594390DEF470E97D4371 /* LayaKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ABD52D1BF49D19F1DB9F3F31AD1C0060 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91CF9DA92B4ED056F1479451B34A87AF /* Foundation.framework */; };
+		ACEFBA3C73D96A21AF0F6703BDBC415A /* Pods-KKSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FED729116BD5E4EA6740F3606FABBFDA /* Pods-KKSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B85C98CB64E6AF6B18B8AE53200B2480 /* LayaKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 6768254DB4C71D7594BB069C83A011EE /* LayaKit.m */; };
+		BC5E20F147BAA9E5BCE1273C47C05604 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29D859FB1C6123D7EAA86BBD27325829 /* CoreMotion.framework */; };
+		D8C77358936D08872C633375E3E00D2B /* Pods-KKSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F751B9CCDC8D36A4037E8593F19AC9BC /* Pods-KKSDK-dummy.m */; };
+		DA7BC61DC8014D32D0DEFC5E4D72E0D5 /* conchRuntime.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AE6C707D56BC22E057671B64A916624 /* conchRuntime.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE430F0051E514C48483C9EDDC61BF6F /* Pods-LayaDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B228F7A3657D580D119B53B22145134 /* Pods-LayaDemo-dummy.m */; };
+		E6FAFCFABF4CB165F0870EDB95BF293A /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD1541801FBF6792434E314CFE653FEC /* OpenAL.framework */; };
+		F222E86E89F7D86B716505C5B19F8221 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0677651820F3CD8BC42A9B48E6022C50 /* JavaScriptCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		36759F5AA5F10B6821E574BB9B84F439 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC9C0F2177564B35211534FBD7FF650A;
+			remoteInfo = LayaKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0677651820F3CD8BC42A9B48E6022C50 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
+		138D14CEE1E7A481BD007961B49E9CB6 /* Pods-LayaDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LayaDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		1ACC864B227024A695776BC4FF156D66 /* Pods-LayaDemo */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-LayaDemo"; path = Pods_LayaDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DBF5D1FA794F703426CBA8E13E34655 /* Pods-KKSDK */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-KKSDK"; path = Pods_KKSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2032DE279CB29AC7CE93BAD1C7D99CDC /* Pods-LayaDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LayaDemo-umbrella.h"; sourceTree = "<group>"; };
+		27C6A4CD9C2075C46C089C996E08C87B /* Pods-KKSDK-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KKSDK-acknowledgements.plist"; sourceTree = "<group>"; };
+		29D859FB1C6123D7EAA86BBD27325829 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreMotion.framework; sourceTree = DEVELOPER_DIR; };
+		2AE6C707D56BC22E057671B64A916624 /* conchRuntime.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = conchRuntime.h; sourceTree = "<group>"; };
+		2B228F7A3657D580D119B53B22145134 /* Pods-LayaDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LayaDemo-dummy.m"; sourceTree = "<group>"; };
+		2F25F9E2AB5478A2119AE72EE61A7B16 /* conchConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = conchConfig.h; sourceTree = "<group>"; };
+		380B0345A8227B3FB53B2B7711E974AE /* libconchRuntime.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = libconchRuntime.bundle; path = LayaKit/Libraries/libconchRuntime.bundle; sourceTree = "<group>"; };
+		51C6802C54BCAF458CDB46C8C4AAEC74 /* Pods-KKSDK-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KKSDK-acknowledgements.markdown"; sourceTree = "<group>"; };
+		565C77AD6B7939D6D6CDEB4D8390A9AB /* LayaKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LayaKit.modulemap; sourceTree = "<group>"; };
+		6768254DB4C71D7594BB069C83A011EE /* LayaKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LayaKit.m; sourceTree = "<group>"; };
+		6CD2B3F3CF38AE358BB340C3784A7970 /* Pods-KKSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KKSDK.debug.xcconfig"; sourceTree = "<group>"; };
+		73F880C94E6F952684C45F295347BB55 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		7FF69477485B54E3B52D22587DCA7B8B /* LayaKit */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LayaKit; path = LayaKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A1288DB1F48EECC3C561D12E5954BD1 /* Pods-LayaDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LayaDemo.release.xcconfig"; sourceTree = "<group>"; };
+		8F3658FD0596F2E9D7BCEF452E38AFB2 /* LayaKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LayaKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		90151B107DB6700A0C730709DF616484 /* LayaKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LayaKit-prefix.pch"; sourceTree = "<group>"; };
+		91CF9DA92B4ED056F1479451B34A87AF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		9381B49BE57931315BDDE422C944C765 /* LayaKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LayaKit-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A152499028F74CFD602EC3077BE3D362 /* Pods-KKSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KKSDK-Info.plist"; sourceTree = "<group>"; };
+		AD1541801FBF6792434E314CFE653FEC /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/OpenAL.framework; sourceTree = DEVELOPER_DIR; };
+		AEDF9F32B0F3F87630134FDF544D78AA /* Pods-KKSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KKSDK.release.xcconfig"; sourceTree = "<group>"; };
+		B47DCC00D51DB5E7F0A194A0BFDBD2E8 /* Pods-LayaDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LayaDemo-frameworks.sh"; sourceTree = "<group>"; };
+		B61F5376F3A718E22BE61E04FB1E8657 /* Pods-LayaDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LayaDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		C4F6D08454308F924664D7F93CC66815 /* Pods-KKSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KKSDK.modulemap"; sourceTree = "<group>"; };
+		C643CF15F9484F0010DD655F9DD41A2D /* Pods-LayaDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LayaDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C86044388CFD5FC5A81B9E09FF651EF4 /* LayaKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LayaKit-Info.plist"; sourceTree = "<group>"; };
+		DB165C8249006A9D6FCF5280C89C471E /* LayaKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LayaKit.debug.xcconfig; sourceTree = "<group>"; };
+		DC5BD260D53C9F0F4C2262C27E5E2A88 /* Pods-LayaDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LayaDemo-Info.plist"; sourceTree = "<group>"; };
+		E2E0DF826087594390DEF470E97D4371 /* LayaKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LayaKit-umbrella.h"; sourceTree = "<group>"; };
+		E4A3F050C9D2A7484B6F1A7AA88CDC6E /* LayaKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LayaKit.release.xcconfig; sourceTree = "<group>"; };
+		E75E570184CD06A51DCF06685A1667B2 /* LayaKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LayaKit.h; sourceTree = "<group>"; };
+		F751B9CCDC8D36A4037E8593F19AC9BC /* Pods-KKSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KKSDK-dummy.m"; sourceTree = "<group>"; };
+		F8A1B69BBE4DC567085824FBCCECEBE4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		FED729116BD5E4EA6740F3606FABBFDA /* Pods-KKSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KKSDK-umbrella.h"; sourceTree = "<group>"; };
+		FED96555EFAA053B622108C748E54DFD /* Pods-LayaDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LayaDemo.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		25A2B0965D1BE9F612594B951CEE1AEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC5E20F147BAA9E5BCE1273C47C05604 /* CoreMotion.framework in Frameworks */,
+				94E40C36661FAE2231AE7B39D78CAF8F /* Foundation.framework in Frameworks */,
+				F222E86E89F7D86B716505C5B19F8221 /* JavaScriptCore.framework in Frameworks */,
+				E6FAFCFABF4CB165F0870EDB95BF293A /* OpenAL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		651A5FB63EC30368C0E0CFA5A3772526 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABD52D1BF49D19F1DB9F3F31AD1C0060 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8DE899B6158FB54FBC8D25B8A52D288 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D8465D2225ABA10231BEF088106EC35 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1CDC06ABAEF1321EAF75A47881399946 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				565C77AD6B7939D6D6CDEB4D8390A9AB /* LayaKit.modulemap */,
+				9381B49BE57931315BDDE422C944C765 /* LayaKit-dummy.m */,
+				C86044388CFD5FC5A81B9E09FF651EF4 /* LayaKit-Info.plist */,
+				90151B107DB6700A0C730709DF616484 /* LayaKit-prefix.pch */,
+				E2E0DF826087594390DEF470E97D4371 /* LayaKit-umbrella.h */,
+				DB165C8249006A9D6FCF5280C89C471E /* LayaKit.debug.xcconfig */,
+				E4A3F050C9D2A7484B6F1A7AA88CDC6E /* LayaKit.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "LayaDemo/Pods/Target Support Files/LayaKit";
+			sourceTree = "<group>";
+		};
+		21BEF84C20EDEFA19948266995675BB3 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				732D691AFA4FA0E24D7053B979595359 /* LayaKit */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		5EB51261B79FDA3C9064AE59F3A1C2DA /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				EE942D098538089563B269947B22A611 /* include */,
+			);
+			name = Libraries;
+			path = LayaKit/Libraries;
+			sourceTree = "<group>";
+		};
+		732D691AFA4FA0E24D7053B979595359 /* LayaKit */ = {
+			isa = PBXGroup;
+			children = (
+				380B0345A8227B3FB53B2B7711E974AE /* libconchRuntime.bundle */,
+				AAB55E2E1D2B35B915D85CBB6EEBCDFC /* Classes */,
+				5EB51261B79FDA3C9064AE59F3A1C2DA /* Libraries */,
+				77C34C988B4BADDB88576E0DB4DE3C66 /* Pod */,
+				1CDC06ABAEF1321EAF75A47881399946 /* Support Files */,
+			);
+			name = LayaKit;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		77C34C988B4BADDB88576E0DB4DE3C66 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				8F3658FD0596F2E9D7BCEF452E38AFB2 /* LayaKit.podspec */,
+				73F880C94E6F952684C45F295347BB55 /* LICENSE */,
+				F8A1B69BBE4DC567085824FBCCECEBE4 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		87A65869B598C1FEEDC0C2A381C18970 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				29D859FB1C6123D7EAA86BBD27325829 /* CoreMotion.framework */,
+				91CF9DA92B4ED056F1479451B34A87AF /* Foundation.framework */,
+				0677651820F3CD8BC42A9B48E6022C50 /* JavaScriptCore.framework */,
+				AD1541801FBF6792434E314CFE653FEC /* OpenAL.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		9825DF77D8EEAC00CD0D7C1E15D9737D /* Pods-LayaDemo */ = {
+			isa = PBXGroup;
+			children = (
+				FED96555EFAA053B622108C748E54DFD /* Pods-LayaDemo.modulemap */,
+				C643CF15F9484F0010DD655F9DD41A2D /* Pods-LayaDemo-acknowledgements.markdown */,
+				138D14CEE1E7A481BD007961B49E9CB6 /* Pods-LayaDemo-acknowledgements.plist */,
+				2B228F7A3657D580D119B53B22145134 /* Pods-LayaDemo-dummy.m */,
+				B47DCC00D51DB5E7F0A194A0BFDBD2E8 /* Pods-LayaDemo-frameworks.sh */,
+				DC5BD260D53C9F0F4C2262C27E5E2A88 /* Pods-LayaDemo-Info.plist */,
+				2032DE279CB29AC7CE93BAD1C7D99CDC /* Pods-LayaDemo-umbrella.h */,
+				B61F5376F3A718E22BE61E04FB1E8657 /* Pods-LayaDemo.debug.xcconfig */,
+				8A1288DB1F48EECC3C561D12E5954BD1 /* Pods-LayaDemo.release.xcconfig */,
+			);
+			name = "Pods-LayaDemo";
+			path = "Target Support Files/Pods-LayaDemo";
+			sourceTree = "<group>";
+		};
+		AAB55E2E1D2B35B915D85CBB6EEBCDFC /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E75E570184CD06A51DCF06685A1667B2 /* LayaKit.h */,
+				6768254DB4C71D7594BB069C83A011EE /* LayaKit.m */,
+			);
+			name = Classes;
+			path = LayaKit/Classes;
+			sourceTree = "<group>";
+		};
+		BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				87A65869B598C1FEEDC0C2A381C18970 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C2EFF5EF9FDAA303B9B331F58CB8EB77 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7FF69477485B54E3B52D22587DCA7B8B /* LayaKit */,
+				1DBF5D1FA794F703426CBA8E13E34655 /* Pods-KKSDK */,
+				1ACC864B227024A695776BC4FF156D66 /* Pods-LayaDemo */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C77359337333D44040AD7ACDB1ECD68F /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FD5DE574CFB30BE56A48092D4804D697 /* Pods-KKSDK */,
+				9825DF77D8EEAC00CD0D7C1E15D9737D /* Pods-LayaDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				21BEF84C20EDEFA19948266995675BB3 /* Development Pods */,
+				BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */,
+				C2EFF5EF9FDAA303B9B331F58CB8EB77 /* Products */,
+				C77359337333D44040AD7ACDB1ECD68F /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		EE942D098538089563B269947B22A611 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				2F25F9E2AB5478A2119AE72EE61A7B16 /* conchConfig.h */,
+				2AE6C707D56BC22E057671B64A916624 /* conchRuntime.h */,
+			);
+			name = include;
+			path = include;
+			sourceTree = "<group>";
+		};
+		FD5DE574CFB30BE56A48092D4804D697 /* Pods-KKSDK */ = {
+			isa = PBXGroup;
+			children = (
+				C4F6D08454308F924664D7F93CC66815 /* Pods-KKSDK.modulemap */,
+				51C6802C54BCAF458CDB46C8C4AAEC74 /* Pods-KKSDK-acknowledgements.markdown */,
+				27C6A4CD9C2075C46C089C996E08C87B /* Pods-KKSDK-acknowledgements.plist */,
+				F751B9CCDC8D36A4037E8593F19AC9BC /* Pods-KKSDK-dummy.m */,
+				A152499028F74CFD602EC3077BE3D362 /* Pods-KKSDK-Info.plist */,
+				FED729116BD5E4EA6740F3606FABBFDA /* Pods-KKSDK-umbrella.h */,
+				6CD2B3F3CF38AE358BB340C3784A7970 /* Pods-KKSDK.debug.xcconfig */,
+				AEDF9F32B0F3F87630134FDF544D78AA /* Pods-KKSDK.release.xcconfig */,
+			);
+			name = "Pods-KKSDK";
+			path = "Target Support Files/Pods-KKSDK";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1363D58618BF5DBC0D9CAAB6C509F8C2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EFECE7C36A96EC2EC6C7D5F167E9C71 /* Pods-LayaDemo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45C3DDBEF78D61B00966E710F1A5DC2D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ADB0805BD9830E62039C1FE9E9D3BBF /* conchConfig.h in Headers */,
+				DA7BC61DC8014D32D0DEFC5E4D72E0D5 /* conchRuntime.h in Headers */,
+				39295E21CC7380BD268EA16A7D8E94E9 /* LayaKit.h in Headers */,
+				A3D2BA8EBED03F8CADE7327E9586962A /* LayaKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C54A28614AC5F58DA070863318EF6D98 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACEFBA3C73D96A21AF0F6703BDBC415A /* Pods-KKSDK-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		724C2A72F9C850D52DBB2C38D13613A6 /* Pods-LayaDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5090A03E69B83889127955AF69415AD /* Build configuration list for PBXNativeTarget "Pods-LayaDemo" */;
+			buildPhases = (
+				1363D58618BF5DBC0D9CAAB6C509F8C2 /* Headers */,
+				1E2A441D0B65BA94F0632B9687F563D3 /* Sources */,
+				B8DE899B6158FB54FBC8D25B8A52D288 /* Frameworks */,
+				E799E19AAD48130CD84F90B23D13DBBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAC7A1F71596C4E5A98C44AA0EEB1AEC /* PBXTargetDependency */,
+			);
+			name = "Pods-LayaDemo";
+			productName = Pods_LayaDemo;
+			productReference = 1ACC864B227024A695776BC4FF156D66 /* Pods-LayaDemo */;
+			productType = "com.apple.product-type.framework";
+		};
+		B83E0B073CD8C9764811925634C15676 /* Pods-KKSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 031114026F802B841E5C76E0F3FE75A6 /* Build configuration list for PBXNativeTarget "Pods-KKSDK" */;
+			buildPhases = (
+				C54A28614AC5F58DA070863318EF6D98 /* Headers */,
+				656F1C459E22371856DBA6F941CD9086 /* Sources */,
+				651A5FB63EC30368C0E0CFA5A3772526 /* Frameworks */,
+				7D4CBDA222CBE921EA5EBFD4AC139F6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-KKSDK";
+			productName = Pods_KKSDK;
+			productReference = 1DBF5D1FA794F703426CBA8E13E34655 /* Pods-KKSDK */;
+			productType = "com.apple.product-type.framework";
+		};
+		EC9C0F2177564B35211534FBD7FF650A /* LayaKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 090FC8863E3CA73F7773792E7BC5314F /* Build configuration list for PBXNativeTarget "LayaKit" */;
+			buildPhases = (
+				45C3DDBEF78D61B00966E710F1A5DC2D /* Headers */,
+				46C695A6AF83B970C926D11415F46307 /* Sources */,
+				25A2B0965D1BE9F612594B951CEE1AEF /* Frameworks */,
+				2DC9B5AD8E1FB5EC6D707CA6DF2946E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LayaKit;
+			productName = LayaKit;
+			productReference = 7FF69477485B54E3B52D22587DCA7B8B /* LayaKit */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = C2EFF5EF9FDAA303B9B331F58CB8EB77 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC9C0F2177564B35211534FBD7FF650A /* LayaKit */,
+				B83E0B073CD8C9764811925634C15676 /* Pods-KKSDK */,
+				724C2A72F9C850D52DBB2C38D13613A6 /* Pods-LayaDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2DC9B5AD8E1FB5EC6D707CA6DF2946E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99D9919750BEF5A7FA35BC75B214A53D /* libconchRuntime.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D4CBDA222CBE921EA5EBFD4AC139F6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E799E19AAD48130CD84F90B23D13DBBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1E2A441D0B65BA94F0632B9687F563D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE430F0051E514C48483C9EDDC61BF6F /* Pods-LayaDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46C695A6AF83B970C926D11415F46307 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B85C98CB64E6AF6B18B8AE53200B2480 /* LayaKit.m in Sources */,
+				3F4959238BBE0DA863C421B06D15CE74 /* LayaKit-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		656F1C459E22371856DBA6F941CD9086 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8C77358936D08872C633375E3E00D2B /* Pods-KKSDK-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CAC7A1F71596C4E5A98C44AA0EEB1AEC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LayaKit;
+			target = EC9C0F2177564B35211534FBD7FF650A /* LayaKit */;
+			targetProxy = 36759F5AA5F10B6821E574BB9B84F439 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2B9E26EAE2CD392AD762421F663075A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		5BA1769DF165A30CEDA102EFD21A44BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4A3F050C9D2A7484B6F1A7AA88CDC6E /* LayaKit.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LayaKit/LayaKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LayaKit/LayaKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LayaKit/LayaKit.modulemap";
+				PRODUCT_MODULE_NAME = LayaKit;
+				PRODUCT_NAME = LayaKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		63FAF33E1C55B71A5F5A8B3CC8749F99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		6E768480C56318FB17C93B6B30A8F5EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A1288DB1F48EECC3C561D12E5954BD1 /* Pods-LayaDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LayaDemo/Pods-LayaDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LayaDemo/Pods-LayaDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9CF519314410286A6F5F9E0C57A0FFCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AEDF9F32B0F3F87630134FDF544D78AA /* Pods-KKSDK.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KKSDK/Pods-KKSDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KKSDK/Pods-KKSDK.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B491D09EA50C7C9B147E9EF490BD64B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B61F5376F3A718E22BE61E04FB1E8657 /* Pods-LayaDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LayaDemo/Pods-LayaDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LayaDemo/Pods-LayaDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C5B73B17C7C2324EA38A7E8499816F76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB165C8249006A9D6FCF5280C89C471E /* LayaKit.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LayaKit/LayaKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LayaKit/LayaKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LayaKit/LayaKit.modulemap";
+				PRODUCT_MODULE_NAME = LayaKit;
+				PRODUCT_NAME = LayaKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CC0B79E51C20FF929C586A3FF45DF6A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CD2B3F3CF38AE358BB340C3784A7970 /* Pods-KKSDK.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KKSDK/Pods-KKSDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KKSDK/Pods-KKSDK.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		031114026F802B841E5C76E0F3FE75A6 /* Build configuration list for PBXNativeTarget "Pods-KKSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC0B79E51C20FF929C586A3FF45DF6A0 /* Debug */,
+				9CF519314410286A6F5F9E0C57A0FFCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		090FC8863E3CA73F7773792E7BC5314F /* Build configuration list for PBXNativeTarget "LayaKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5B73B17C7C2324EA38A7E8499816F76 /* Debug */,
+				5BA1769DF165A30CEDA102EFD21A44BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B9E26EAE2CD392AD762421F663075A1 /* Debug */,
+				63FAF33E1C55B71A5F5A8B3CC8749F99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5090A03E69B83889127955AF69415AD /* Build configuration list for PBXNativeTarget "Pods-LayaDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B491D09EA50C7C9B147E9EF490BD64B0 /* Debug */,
+				6E768480C56318FB17C93B6B30A8F5EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

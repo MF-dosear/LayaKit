@@ -1,0 +1,19 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+platform :ios, '12.0'
+use_frameworks!
+
+workspace 'LayaDemo.xcworkspace'
+
+target 'LayaDemo' do
+project 'LayaDemo/LayaDemo.xcodeproj'
+
+pod 'LayaKit', :path => '../'
+
+end
+
+target 'KKSDK' do
+project 'KKSDK/KKSDK.xcodeproj'
+
+
+end

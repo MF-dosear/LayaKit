@@ -1,0 +1,16 @@
+PODS:
+  - LayaKit (1.0.0)
+
+DEPENDENCIES:
+  - LayaKit (from `../`)
+
+EXTERNAL SOURCES:
+  LayaKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LayaKit: 2277a65258ee8c778e42470ae3532ef69c7282d4
+
+PODFILE CHECKSUM: 67b4925e40f406ea8cb989a77b00b218854d898d
+
+COCOAPODS: 1.14.3
